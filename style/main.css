@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(168, 172, 175);
+}
+.main_section{
+    position: relative;
+}
+.navbar{
+    background-color: white;
+}
+.navbar_item {
+    width: 100%;
+    height: auto;
+    background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 10px;
+}
+.section_items{
+    width: 70%;
+    height: auto;
+    margin: 10px 20px 0;
+}
+.navbar_item p {
+    margin: 0;
+    margin-left: 200px;
+}
+
+.posts{
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.sections{
+    display: flex;
+    
+}
+.section_items_navbar{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.posts img{
+    padding: 10px;
+}
+.section_add{
+    width: 70%;
+    height: 150px;
+    background-color: white;
+    margin: 5px 20px 0;
+    border-radius: 5px;
+}
+
+.navbar{
+    padding: 20px;
+}
+
+.all_buttons{
+    padding: 0 20px 0;
+}
+
+
+/* add post */
+
+.addPost{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.addItems{
+    width: 100%;
+    height: 700px;
+    /* background-color: white; */
+    display: flex;
+}
+.add_post_item{
+    width: 25%;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.addSections{
+    width: 70%;
+    height: 100vh;
+    margin: 10px 15px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+.addSection_items{
+    width: 400px;
+    margin: 20px 40px;
+}
+
+.addSection_items input{
+    margin: 10px 20px;
+    width: 350px;
+    padding: 5px;
+    background-color: #f5f6fa;
+    border: none;
+    border-radius: 8px;
+}
+
+.creat_new_post{
+    display: none;
+    position: absolute;
+    top: 250px;
+    right: 0;    
+}
+
+
+.changeColor{
+    background-color: blue;
+}
+
+
+
+
